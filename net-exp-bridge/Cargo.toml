@@ -1,0 +1,22 @@
+[package]
+name = "net-exp-bridge"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+fastrand = "2.0.1"
+log = "0.4.20"
+env_logger = "0.10.0"
+indicatif = "0.17.7"
+rand = "0.8.5"
+serde = { version = "1.0.189", features = ["derive"] }
+rmp-serde = "1.1.2"
+serde-pickle = "1.1.1"
+
+[[bin]]
+name = "generate"
+
+[[bin]]
+name = "simulate"

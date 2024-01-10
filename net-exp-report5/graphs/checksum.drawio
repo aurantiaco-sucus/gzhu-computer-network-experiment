@@ -1,0 +1,46 @@
+<mxfile host="Electron" modified="2023-10-26T06:26:44.531Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.3 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="OiyLxOjNv588JKHXyDxW" version="22.0.3" type="device">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="538" dy="345" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="59Sfo_6lMa2S5x6zrIaV-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="59Sfo_6lMa2S5x6zrIaV-1" target="59Sfo_6lMa2S5x6zrIaV-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="59Sfo_6lMa2S5x6zrIaV-1" value="读入数据" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="160" y="40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="59Sfo_6lMa2S5x6zrIaV-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="59Sfo_6lMa2S5x6zrIaV-2" target="59Sfo_6lMa2S5x6zrIaV-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="59Sfo_6lMa2S5x6zrIaV-2" value="将数据作为剩余数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="160" y="120" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="59Sfo_6lMa2S5x6zrIaV-3" value="输出校验和" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="160" y="540" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="59Sfo_6lMa2S5x6zrIaV-4" value="当剩余数据长度大于1" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="120" y="200" width="200" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="59Sfo_6lMa2S5x6zrIaV-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="59Sfo_6lMa2S5x6zrIaV-4" source="59Sfo_6lMa2S5x6zrIaV-5" target="59Sfo_6lMa2S5x6zrIaV-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="59Sfo_6lMa2S5x6zrIaV-5" value="拆分数据为两半" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="59Sfo_6lMa2S5x6zrIaV-4">
+          <mxGeometry x="40" y="60" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="59Sfo_6lMa2S5x6zrIaV-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="59Sfo_6lMa2S5x6zrIaV-4" source="59Sfo_6lMa2S5x6zrIaV-6" target="59Sfo_6lMa2S5x6zrIaV-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="59Sfo_6lMa2S5x6zrIaV-6" value="前者与后者逐元素相加到第一半" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="59Sfo_6lMa2S5x6zrIaV-4">
+          <mxGeometry x="40" y="140" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="59Sfo_6lMa2S5x6zrIaV-7" value="将第一半作为剩余数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="59Sfo_6lMa2S5x6zrIaV-4">
+          <mxGeometry x="40" y="220" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="59Sfo_6lMa2S5x6zrIaV-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="59Sfo_6lMa2S5x6zrIaV-7" target="59Sfo_6lMa2S5x6zrIaV-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,10 @@
+.idea/**
+Cargo.lock
+addr_seg.txt
+inv_addr.txt
+frame.txt
+addr_seg.rmp
+inv_addr.rmp
+frame.rmp
+sc*.txt
+*.pkl
