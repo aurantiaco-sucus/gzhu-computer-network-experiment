@@ -7,6 +7,6 @@
 * 我的代码写的大概不好（注释也很少），所以要参考的话请多加留意。
 * 截图不要直接使用哦。
 ## 关于 Ethereal
-这个软件现在叫 Wireshark（https://www.wireshark.org/）。
+这个软件现在叫 [Wireshark](https://www.wireshark.org/) 。
 ## 关于 Packet Tracer
-思科公司的 Packet Tracer 软件可以通过国区的 Networking Academy（https://www.netacad.cn/）或者国际区的 Skills for All（https://skillsforall.com/）获取。它们分别需要国区（国家选中国）和国际区（国家选中国以外的国家）的思科账号。
+思科公司的 Packet Tracer 软件可以通过国区的 [Networking Academy](https://www.netacad.cn/) 或者国际区的 [Skills for All](https://skillsforall.com/) 获取。它们分别需要国区（国家选中国）和国际区（国家选中国以外的国家）的思科账号。
